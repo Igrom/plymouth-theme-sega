@@ -72,9 +72,7 @@ in the Makefile. Don't forget to customize the values in the Makefile of `sega-a
 >  A: Rebuild your initial ramdisk image. A common command to accomplish this is `sudo update-initramfs -u`.
 
 ## Ideas for future development
-If you watch the video closely, during the glint and fadein the logo color shifts into cyan. This is yet unsupported.
-
-The glint doesn't start from the edge of an image. This could be fixed by modifying the -geometry switch in ImageMagick.
+The theme provides for the display of neither messages nor prompts. Rely on your gut feeling to enter your disk encrpytion passphrase. Features can be ported from other Ubuntu themes (e.g., ubuntu-logo) to remedy this.
 
 ## Author
 Igor Sowinski \<igor@sowinski.blue\>
