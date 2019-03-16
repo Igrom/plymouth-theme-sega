@@ -42,6 +42,13 @@ sudo make test
 ```
  to check. The splash screen will display and disappear after several seconds. The screen refreshes only when external input is provided by the user: continue to move your mouse during the animation to refresh the screen.
 
+## How to uninstall
+Run
+```bash
+sudo make uninstall
+```
+to remove the theme. Note that this does not reconfigure Plymouth to use a different theme --- you have to take care of that yourself.
+
 ## Customization
 Customize the values:
 - ANIMATION\_GLINT\_FRAME\_COUNT
