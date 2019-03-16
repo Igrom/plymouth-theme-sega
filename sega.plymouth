@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Sega
+Description=A Sega theme for Plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sega
+ScriptFile=/usr/share/plymouth/themes/sega/sega.script

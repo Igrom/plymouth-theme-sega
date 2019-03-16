@@ -1,0 +1,3 @@
+[submodule "sega-animation-generator"]
+	path = sega-animation-generator
+	url = https://github.com/Igrom/sega-animation-generator.git
