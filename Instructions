@@ -6,4 +6,4 @@ In order to activate the theme, follow the procedures outlined under the followi
 - https://wiki.archlinux.org/index.php/plymouth#Changing_the_Theme 
 
 Alternatively, run the following command:
-	sudo ln -s /usr/share/plymouth/themes/sega/sega.plymouth /usr/share/plymouth/themes/default.plymouth
+	sudo ln -s /usr/share/plymouth/themes/sega/sega.plymouth /usr/share/plymouth/themes/default.plymouth && sudo update-initramfs -u

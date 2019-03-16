@@ -17,33 +17,33 @@ with two new ones:
 ## How to run
 The tool depends on sega-animation-generator and its dependencies, and `make`. In addition, you need to install `plymouth-x11` if you'd like to test the animation without restarting your computer.
 
-Clone the repository, then run 
+Clone the repository, then run:
 ```bash
 make
 ```
  to generate the animation and the `sega.script` file.
 
-Alternatively, run 
+Alternatively, run:
 ```bash
 make sega.script
 ```
  to generate just the script. Useful if you already have a custom animation you'd like to use.
 
-Next, run 
+Next, run:
 ```bash
 sudo make install
 ```
  to install the theme in the default Plymouth themes folder. Once this is done, you will have to manually enable the theme. This involves configuring Plymouth to use the new theme and rebuilding your initial ramdisk image. The exact steps may depend on your distribution.  Helpful instructions along with a catch-all solution are printed at the end of the console output.
 
 ## How to test the theme without restarting your computer
-Is your theme installed and enabled right? Run 
+Is your theme installed and enabled right? Run:
 ```bash
 sudo make test
 ```
  to check. The splash screen will display and disappear after several seconds. The screen refreshes only when external input is provided by the user: continue to move your mouse during the animation to refresh the screen.
 
 ## How to uninstall
-Run
+Run:
 ```bash
 sudo make uninstall
 ```
