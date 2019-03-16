@@ -60,7 +60,7 @@ in the Makefile. Don't forget to customize the values in the Makefile of `sega-a
 
 ## Problems
 > Q: When I run `sudo make test`, nothing happens.
-
+>
 >  A: Ensure you have installed the package `plymouth-x11`.
 
 > Q: When I run `sudo make test`, a different theme is displayed.
