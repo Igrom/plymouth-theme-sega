@@ -1,4 +1,5 @@
 # plymouth-theme-sega
+![Example](https://raw.githubusercontent.com/Igrom/plymouth-theme-sega/master/examples/plymouth-theme-sega.gif)
 
 Generate a Plymouth theme to spoof the SEGA 'glint' animation using a custom logo. Based on [this video](https://www.youtube.com/watch?v=kLVelULW1zE).
 
