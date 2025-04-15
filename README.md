@@ -18,7 +18,13 @@ with two new ones:
 ## How to run
 The tool depends on sega-animation-generator and its dependencies, and `make`. In addition, you need to install `plymouth-x11` if you'd like to test the animation without restarting your computer.
 
-Clone the repository, then run:
+After cloning the repository, have git download the "sega-animation-generator" submodule by running:
+```bash
+git submodule init
+git submodule update
+```
+
+Afterwards, run:
 ```bash
 make
 ```
